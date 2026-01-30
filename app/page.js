@@ -3,6 +3,7 @@ import { useState } from "react";
 import { useEffect } from "react";
 import FormCard from "@/components/FormCard"
 import ImportCard from "@/components/ImportCard"
+import ChartsSection from "@/components/ChartsSection"
 import Image from "next/image";
 
 const salesData = [
@@ -161,6 +162,9 @@ export default function App() {
           <KpiCard title="Best Category" value={bestCategory} />
         </div>
 
+        {/* Charts */}
+        <ChartsSection rows={finalRows} />
+
         {/* Controls */}
         <div className="mt-6 grid gap-3 rounded-2xl border bg-white p-4 shadow-sm sm:grid-cols-3">
           <div className="flex flex-col gap-1">
@@ -249,18 +253,6 @@ export default function App() {
           onClose={() => setOpenImport(false)}
           onImport={handleImportCSV}
         />
-        {/* Revenue Breakdown */}
-        <div className="mt-6 rounded-2xl border bg-white p-4 shadow-sm">
-          <h2 className="text-lg font-semibold text-slate-900">Revenue by Category</h2>
-          <div className="mt-3 grid gap-2 sm:grid-cols-3">
-            {Object.entries(revenueByCategory).map(([cat, rev]) => (
-              <div key={cat} className="rounded-xl bg-slate-50 p-3">
-                <p className="text-sm text-slate-600">{cat}</p>
-                <p className="text-xl font-bold text-slate-900">${formatMoney(rev)}</p>
-              </div>
-            ))}
-          </div>
-        </div>
       </div>
     </div>
   );
