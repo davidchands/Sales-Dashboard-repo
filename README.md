@@ -1,36 +1,151 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+Sales Dashboard
 
-## Getting Started
+A simple, business-focused sales dashboard designed to help teams move away from spreadsheets and clearly understand their sales data at a glance.
 
-First, run the development server:
+This project focuses on clarity, usability, and real-world workflows, rather than complex enterprise features.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+✨ Overview
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+Many small and medium-sized businesses rely on Excel or Google Sheets to track sales. As data grows, this becomes hard to manage, analyze, and act on.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+This Sales Dashboard provides a clean interface to:
 
-## Learn More
+- Record sales
 
-To learn more about Next.js, take a look at the following resources:
+- Calculate revenue automatically
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- Visualize performance through charts
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- Analyze trends without manual formulas
 
-## Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+🚀 Features
+
+1. Sales table
+
+View all sales data in a structured, readable format
+
+2. Automatic revenue calculation when products are added
+
+
+3. CSV Import
+
+Upload existing sales data from Excel or Google Sheets
+
+4. Validate file format with helpful error messages
+
+
+5. In-app Product Entry
+
+Add products and sales directly through the UI
+
+6. No code or technical knowledge required
+
+
+7. Data Visualization
+
+- Sales over time (monthly trends)
+
+- Total sales by product (Top performers)
+
+- Sales by category
+
+
+8. Keyboard Shortcuts
+
+A → Open Add Product form
+
+I → Open CSV Import modal
+
+Esc → Close active modal
+(Designed to reduce friction during daily use)
+
+
+9. Readable Date Formatting
+
+Consistent DD-MM-YYYY format for easier scanning
+
+
+
+🎯 Project Goal
+
+The goal of this project is not to build a complex analytics platform, but to create a practical tool that businesses can actually use.
+
+Key principles:
+
+- Replace messy spreadsheets
+
+- Reduce manual work
+
+- Improve visibility and decision-making
+
+- Keep the interface simple and fast
+
+
+
+🧠 Target Users
+
+- Small business owners
+
+- Retail and wholesale businesses
+
+- Anyone who wants basic sales insights without complexity
+
+
+
+🛠 Tech Stack
+
+Frontend: React / Next.js
+
+Styling: Tailwind CSS, DaisyUI
+
+Charts: Chart.js / Recharts
+
+Deployment: Vercel
+
+
+
+📦 Current Status
+
+This project is ~95% complete.
+
+Remaining work focuses on:
+
+- UI/UX refinements
+
+- Edge case handling
+
+- Feedback-based improvements
+
+
+🔗 Live Demo
+
+👉 Live Demo:
+https://dashboard-coral-alpha-57.vercel.app/ 
+
+
+
+💬 Feedback
+
+This project is being built in public and feedback is highly welcome.
+
+If you:
+
+- run a business
+
+- have experience with sales tracking
+
+- or have ideas for improvement
+
+
+Feel free to open an issue or reach out.
+
+
+
+📌 Notes
+
+This dashboard is intentionally scoped to remain simple and focused.
+It is not intended to replace full accounting or ERP systems.
+
