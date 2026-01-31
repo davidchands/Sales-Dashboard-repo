@@ -5,6 +5,7 @@ A simple, business-focused sales dashboard designed to help teams move away from
 This project focuses on clarity, usability, and real-world workflows, rather than complex enterprise features.
 
 
+
 ✨ Overview
 
 Many small and medium-sized businesses rely on Excel or Google Sheets to track sales. As data grows, this becomes hard to manage, analyze, and act on.
@@ -18,6 +19,7 @@ This Sales Dashboard provides a clean interface to:
 - Visualize performance through charts
 
 - Analyze trends without manual formulas
+
 
 
 
@@ -69,6 +71,7 @@ Consistent DD-MM-YYYY format for easier scanning
 
 
 
+
 🎯 Project Goal
 
 The goal of this project is not to build a complex analytics platform, but to create a practical tool that businesses can actually use.
@@ -85,6 +88,7 @@ Key principles:
 
 
 
+
 🧠 Target Users
 
 - Small business owners
@@ -92,6 +96,7 @@ Key principles:
 - Retail and wholesale businesses
 
 - Anyone who wants basic sales insights without complexity
+
 
 
 
@@ -104,6 +109,7 @@ Styling: Tailwind CSS, DaisyUI
 Charts: Chart.js / Recharts
 
 Deployment: Vercel
+
 
 
 
@@ -120,10 +126,13 @@ Remaining work focuses on:
 - Feedback-based improvements
 
 
+
+
 🔗 Live Demo
 
 👉 Live Demo:
 https://dashboard-coral-alpha-57.vercel.app/ 
+
 
 
 
