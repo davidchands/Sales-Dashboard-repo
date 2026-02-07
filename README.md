@@ -70,6 +70,11 @@ Esc → Close active modal
 Consistent DD-MM-YYYY format for easier scanning
 
 
+10. Sales Insights.
+
+Turns raw sales data into clear summaries and actionable next steps for the user.
+
+
 ---
 
 🎯 Project Goal
